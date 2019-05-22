@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.31)  22 MAY 2019 10:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.31)  22 MAY 2019 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,14 +1372,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 194.
 )
 LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input l
-ine 18.
+ine 16.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
 File: T1XCharter-TLF.fd 2013/10/27 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 18.
+(Font)              scaled to size 10.0pt on input line 16.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1392,29 +1392,29 @@ Package csquotes Info: ... found 'babel' package.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 16.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 16.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1465,7 +1465,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 18.
+(lastpage)             ! on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1514,11 +1514,11 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
 \c@lstlisting=\count337
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 16.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1527,15 +1527,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count338
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1545,13 +1545,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 20.
+(Font)              scaled to size 12.0pt on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1559,7 +1559,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1568,148 +1568,154 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 20.
+(Font)              scaled to size 7.0pt on input line 18.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 8.0pt on input line 18.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 24.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/XCharter-TLF/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 28.93999pt on input line 26.
+(Font)              scaled to size 28.93999pt on input line 24.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 42.56212pt on input line 26.
+(Font)              scaled to size 42.56212pt on input line 24.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 24.
 
-Underfull \hbox (badness 2065) in paragraph at lines 26--27
+Underfull \hbox (badness 2065) in paragraph at lines 24--25
 [][]\T1/XCharter-TLF/b/n/10 avaScript, is a lightweight in-ter-preted or
  []
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 30.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 30.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 38.
+(Font)              scaled to size 9.0pt on input line 36.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 46.
-<liveserver.png, id=28, 1242.6425pt x 86.3225pt>
+(Font)              scaled to size 10.0pt on input line 47.
+<liveserver.png, id=60, 1242.6425pt x 86.3225pt>
 File: liveserver.png Graphic file (type png)
  <use liveserver.png>
-Package pdftex.def Info: liveserver.png used on input line 79.
+Package pdftex.def Info: liveserver.png used on input line 93.
 (pdftex.def)             Requested size: 231.88997pt x 16.1077pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 80.
+(Font)              scaled to size 9.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 80.
-
-<plunker.png, id=32, 1445.4pt x 903.375pt>
-File: plunker.png Graphic file (type png)
- <use plunker.png>
-Package pdftex.def Info: plunker.png used on input line 89.
-(pdftex.def)             Requested size: 206.38193pt x 128.9804pt.
-
-Underfull \vbox (badness 1122) has occurred while \output is active []
-
+(Font)              scaled to size 9.0pt on input line 94.
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./liveserver.png> <./plunker.png>]
-Overfull \hbox (14.85466pt too wide) in paragraph at lines 100--102
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- 
- []
-
-<electron.png, id=77, 1445.4pt x 903.375pt>
-File: electron.png Graphic file (type png)
- <use electron.png>
-Package pdftex.def Info: electron.png used on input line 110.
+ <./liveserver.png>] <plunker.png, id=116, 1445.4pt x 903.375pt>
+File: plunker.png Graphic file (type png)
+ <use plunker.png>
+Package pdftex.def Info: plunker.png used on input line 104.
 (pdftex.def)             Requested size: 231.88997pt x 144.92891pt.
 
-Overfull \hbox (14.85466pt too wide) in paragraph at lines 156--157
+Overfull \hbox (14.85466pt too wide) in paragraph at lines 115--117
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  
  []
 
-<meteor.png, id=79, 1606.0pt x 880.28876pt>
+<electron.png, id=119, 1445.4pt x 903.375pt>
+File: electron.png Graphic file (type png)
+ <use electron.png>
+Package pdftex.def Info: electron.png used on input line 125.
+(pdftex.def)             Requested size: 231.88997pt x 144.92891pt.
+
+Overfull \hbox (14.85466pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ 
+ []
+
+<meteor.png, id=121, 1606.0pt x 880.28876pt>
 File: meteor.png Graphic file (type png)
  <use meteor.png>
-Package pdftex.def Info: meteor.png used on input line 169.
+Package pdftex.def Info: meteor.png used on input line 184.
 (pdftex.def)             Requested size: 231.88997pt x 127.09459pt.
-LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input 
-line 206.
+ [2 <./plunker.png> <./electron.png> <./meteor.png (PNG copy)>] [3]
+Underfull \vbox (badness 4072) has occurred while \output is active []
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
-File: TS1XCharter-TLF.fd 2013/10/27 (autoinst) Font definitions for TS1/XCharte
-r-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 206.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `XCharter-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+ [4]
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[2 <./electron.png> <./meteor.png (PNG copy)>]
 
-LaTeX Warning: Empty bibliography on input line 217.
+Underfull \hbox (badness 3333) in paragraph at lines 609--612
+\T1/XCharter-TLF/m/n/10 (+20) or it-er-able into true ar-ray es-pe-cially when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+
+ []
+
+
+Overfull \hbox (14.54214pt too wide) in paragraph at lines 624--626
+[][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Empty bibliography on input line 762.
 
 
 AED: lastpage setting LastPage
-[3
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 766.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 766.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 766.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 766.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A7AAB9AA91F6B64411F09CC212AEADC5;381.
+(rerunfilecheck)             Checksum: 42395D660246FED04E7344474012CD18;1023.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21203 strings out of 492995
- 342213 string characters out of 6132704
- 882286 words of memory out of 5000000
- 24232 multiletter control sequences out of 15000+600000
- 117301 words of font info for 115 fonts, out of 8000000 for 9000
+ 21781 strings out of 492995
+ 350537 string characters out of 6132704
+ 922578 words of memory out of 5000000
+ 24335 multiletter control sequences out of 15000+600000
+ 119936 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,77p,820b,1547s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_jfcsri.enc}{
-/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/us
-r/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/
-local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/lo
+ 39i,12n,77p,820b,2055s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{page.8} has been referenced but does not exist, r
+eplaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/u
+sr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr
+/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (3 pages, 833944 bytes).
+Output written on main.pdf (7 pages, 852823 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 104 named destinations out of 1000 (max. 500000)
- 35909 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 808 PDF objects out of 1000 (max. 8388607)
+ 778 compressed objects within 8 object streams
+ 567 named destinations out of 1000 (max. 500000)
+ 35461 words of extra memory for PDF output out of 35830 (max. 10000000)
 
