@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+         <!-- library javascript file-->
+          <script src="listing11.js"></script>
+          <script src="listing3.js"></script>
+  </head>
+          <body>
+                <h1>Client Server side JavaScript</h1>
+               <!-- Client side javascript embedded in the html-->
+                <script type="text/javascript">
+                     //class
+                      function Arithmetic(a,b){
+                           this.a = a;
+                           this.b = b;
+                     };
+                     //class sum method
+                     Arithmetic.prototype.sum = function(){
+                           return this.a + this.b;
+                     };
+                     Arithmetic.prototype.minus = function(){
+                           if(this.a > this.b){
+                                 return this.a - this.b;
+                           }else{
+                                 return this.b - this.a;
+                           }
+                     };
+
+                     //instantiation
+                     var numbers = new Arithmetic(1, 100); //with input parameters
+
+                     //call methods
+                     console.log("Sum = " + numbers.sum());
+                     console.log("Minus = " + numbers.minus());
+                </script>
+          </body>
+</html>
