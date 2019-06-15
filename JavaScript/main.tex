@@ -755,6 +755,420 @@ console.log(deck);
  'Two of Spades' ]
 \end{lstlisting}
 
+Advancing the Blackjack code.
+
+\begin{lstlisting}
+/*
+Blackjack game of cards
+*/
+
+let suits = ["Heart", "Clubs", "Diamonds", "Spades"];
+let values = ["Ace", "King", "Queen", "Jack", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"];
+
+
+function createDeck(){
+	let deck = [] //crear deck
+	for(let suitIdx = 0; suitIdx < suits.length; suitIdx++){
+			for(let valueIdx = 0; valueIdx < values.length; valueIdx++){
+					deck.push(values[valueIdx] + ' of ' + suits[suitIdx]);
+			}
+	}
+			return deck
+}
+
+let deck = createDeck()
+//console.log(deck);
+
+function getNextCard(){
+	return deck.shift()
+}
+
+
+let playerCards = []
+
+for(let i = 0; i < 2; i++){
+	playerCards.push(getNextCard())
+}
+
+console.log(playerCards);
+
+\end{lstlisting}
+
+Objects and functions in the code.
+
+\begin{lstlisting}
+/*
+Blackjack game of cards
+*/
+
+let suits = ["Heart", "Clubs", "Diamonds", "Spades"];
+let values = ["Ace", "King", "Queen", "Jack", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"];
+
+
+function createDeck(){
+	let deck = [] //crear deck
+	for(let suitIdx = 0; suitIdx < suits.length; suitIdx++){
+			for(let valueIdx = 0; valueIdx < values.length; valueIdx++){
+					deck.push(values[valueIdx] + ' of ' + suits[suitIdx]);
+			}
+	}
+			return deck
+}
+
+let deck = createDeck()
+//console.log(deck);
+
+function getNextCard(){
+	return deck.shift()
+}
+
+
+let playerCards = []
+
+for(let i = 0; i < 2; i++){
+	playerCards.push(getNextCard())
+}
+
+console.log(playerCards);
+\end{lstlisting}
+
+Objects
+
+\begin{lstlisting}
+/*
+Blackjack game of cards
+*/
+
+let suits = ["Heart", "Clubs", "Diamonds", "Spades"];
+let values = ["Ace", "King", "Queen", "Jack", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"];
+
+
+function createDeck(){
+	/*
+			Creates a deck of 52 cards
+	*/
+	let deck = [] //crear deck
+	for(let suitIdx = 0; suitIdx < suits.length; suitIdx++){
+			for(let valueIdx = 0; valueIdx < values.length; valueIdx++){
+					let card = {
+									suit : suits[suitIdx],
+									value: values[valueIdx]
+					}
+					deck.push(card);
+			}
+	}
+			return deck
+}
+
+let deck = createDeck()
+//console.log(deck);
+
+function getNextCard(){
+	/*Moves to the next card from the card on top*/
+	return deck.shift()
+}
+
+var getCardString = (card) =>{
+	/*
+			takes object { suit: "v1", valueL "v2"}
+			returns: v2 of v1
+	*/
+	return card.value + ' of ' + card.suit
+}
+
+let playerCards = []
+
+for(let i = 0; i < 2; i++){
+	playerCards.push(getCardString(getNextCard()))
+}
+
+console.log("Welcome to BlackJack Game!");
+console.log("You are dealt: ");
+console.log(playerCards);
+\end{lstlisting}
+
+\section{Functions}
+
+Simple function.
+
+\begin{lstlisting}
+function showMessage(){
+		console.log("This is a simple function");
+}
+
+showMessage() //This is a simple function
+\end{lstlisting}
+
+Passing data into a function.
+
+\begin{lstlisting}
+function showMessage(message){
+			console.log(message);
+}
+
+showMessage("Hello, world!") //Hello, world!
+
+\end{lstlisting}
+
+Return statement in a function.
+
+\begin{lstlisting}
+"use strict"
+
+function doubles(number){
+		return number*2;
+}
+
+var r = doubles(2)
+console.log(r); //4
+\end{lstlisting}
+
+\section{Objects}
+
+\subsection{Create an Object}
+
+\begin{lstlisting}
+"use strict"
+
+//object person
+let person = {
+		name : "x",
+		surname: "y",
+		age: 0,
+		occupation: "a",
+		vehicle: "b"
+}
+
+console.log(person); // { name: 'x', surname: 'y', age: 0, occupation: 'a', vehicle: 'b' }
+\end{lstlisting}
+
+\subsection{Access an Object}
+
+Accessing hash table object.
+
+\begin{itemize}
+	\item Dot notation person.name
+	\item by indexing person['name']
+\end{itemize}
+
+\begin{lstlisting}
+"use strict"
+
+//object person
+let person = {
+			name : "x",
+			surname: "y",
+			age: 0,
+			occupation: "a",
+			vehicle: "b"
+}
+
+console.log(person);
+/*
+	{
+			name: 'x',
+			surname: 'y',
+			age: 0,
+			occupation: 'a',
+			vehicle: 'b' }
+*/
+
+var keys = Object.keys(person)
+
+/*
+	[ 'name', 'surname', 'age', 'occupation', 'vehicle' ]
+*/
+
+var myInformation = ['John', 'Doe', 29, 'Engineer', 'Porsche 911']
+
+let count = 0 //count values
+
+keys.forEach((key) => {
+			person[key] = myInformation[count]
+			count++
+})
+
+console.log(person);
+
+/*
+		{ name: 'John',
+		surname: 'Doe',
+		age: 29,
+		occupation: 'Engineer',
+		vehicle: 'Porsche 911' }
+*/
+\end{lstlisting}
+
+\subsection{Parsing an object into a function}
+
+\begin{lstlisting}
+"use strict"
+
+//change card function
+var changeCard = (card_) => {
+		card_.suit = "Clubs"
+}
+let card = {
+		suit: "Hearts",
+		value: "Queen"
+}
+
+console.log(card) //{suit: "Hearts", value: "Queen"}
+changeCard(card)
+console.log(card) //{suit: "Clubs", value: "Queen"}
+
+\end{lstlisting}
+
+\subsection{Arrays of Objects}
+
+\begin{lstlisting}
+"use strict"
+
+let cards = [
+					{
+							suit : "Hearts",
+							value: "Queen"
+					}
+]
+
+console.log(cards) //[ { suit: 'Hearts', value: 'Queen' } ]
+console.log(cards[0]) //{ suit: 'Hearts', value: 'Queen' }
+console.log(cards[0].suit) //Hearts
+\end{lstlisting}
+
+accessing array objects.
+
+\begin{lstlisting}
+"use strict"
+
+let cards = [
+
+			{
+					suit : "Hearts",
+					value: "Queen"
+			},
+
+			{
+					suit: "Clubs",
+					value: "King"
+			},
+
+			{
+					suit: "Diamonds",
+					value: "King"
+			}
+
+]
+
+let numberOfCards = cards.length //3
+for(let i = 0; i < numberOfCards; i++){
+			console.log(cards[i].value + " of " + cards[i].suit)
+}
+
+/*
+		Queen of Hearts
+		King of Clubs
+		King of Diamonds
+*/
+
+\end{lstlisting}
+
+
+\subsection{Built-in Objects}
+
+\href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects}{Standard Built-in Objects}
+
+\begin{description}
+	\item[Math] : random numbers
+	\item [Date]: date objects
+	\item [String]: strings
+ 	\item [Number]: numbers
+\end{description}
+
+\subsection{Math Object}
+
+Simple game.
+
+\begin{lstlisting}
+"use strict"
+
+var guess = (number) =>{
+		if (number == (Math.random()*10).toFixed(0)){
+					console.log("You chose " + number +" JackPot!!!")
+		}else{
+					console.log("This round: " + number + ", JackPot number: " + (Math.random()*10).toFixed(0))
+				}
+}
+
+//Guess number between 0 - 10
+let guessNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+guessNumbers.forEach((element) => {
+			guess(element)
+})
+
+//Lost ten times
+/*
+This round: 1, JackPot number: 7
+This round: 2, JackPot number: 7
+This round: 3, JackPot number: 9
+This round: 4, JackPot number: 6
+This round: 5, JackPot number: 7
+This round: 6, JackPot number: 0
+This round: 7, JackPot number: 7
+This round: 8, JackPot number: 5
+This round: 9, JackPot number: 1
+This round: 10, JackPot number: 3
+*/
+
+//Win
+/*
+	You chose 9 JackPot!!!
+*/
+\end{lstlisting}
+
+\subsection{Math truncate}
+
+\begin{lstlisting}
+"use strict"
+
+//truncate rounds and removes all decimal points
+var guess = (number) =>{
+			if (number == Math.trunc((Math.random()*10))){
+					console.log("You chose " + number +" JackPot!!!")
+			}
+}
+
+//Guess number between 0 - 10
+let guessNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+guessNumbers.forEach((element) => {
+		guess(element)
+})
+
+/*
+	You chose 8 JackPot!!!
+*/
+\end{lstlisting}
+
+\subsection{Date Object}
+
+\begin{lstlisting}
+"use strict"
+
+var date = new Date()
+console.log(date); //2019-06-15T19:06:25.648Z
+
+\end{lstlisting}
+
+\subsection{toDateString()}
+
+\begin{lstlisting}
+"use strict"
+
+var date = new Date().toDateString()
+console.log(date); //Sat Jun 15 2019
+\end{lstlisting}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
