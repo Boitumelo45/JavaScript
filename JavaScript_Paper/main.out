@@ -12,20 +12,23 @@
 \BOOKMARK [3][-]{subsubsection.1.5.6}{Undefined and Null}{subsection.1.5}% 12
 \BOOKMARK [3][-]{subsubsection.1.5.7}{Data containers}{subsection.1.5}% 13
 \BOOKMARK [3][-]{subsubsection.1.5.8}{Blackjack project \(PluralSight\)}{subsection.1.5}% 14
-\BOOKMARK [1][-]{section.2}{Functions}{}% 15
-\BOOKMARK [1][-]{section.3}{Objects}{}% 16
-\BOOKMARK [2][-]{subsection.3.1}{Create an Object}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Access an Object}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.3}{Parsing an object into a function}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.4}{Arrays of Objects}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.5}{Built-in Objects}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.6}{Math Object}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.7}{Math truncate}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.8}{Date Object}{section.3}% 24
-\BOOKMARK [2][-]{subsection.3.9}{toDateString\(\)}{section.3}% 25
-\BOOKMARK [1][-]{section.4}{Programming for web pages}{}% 26
-\BOOKMARK [2][-]{subsection.4.1}{DOM}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.2}{Programming the DOM}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.3}{Accessing DOM objects using an external file}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.4}{Handling Buttons}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.5}{Manipulating DOM object styles}{section.4}% 31
+\BOOKMARK [2][-]{subsection.1.6}{Adding user interface to BlackJack Game}{section.1}% 15
+\BOOKMARK [2][-]{subsection.1.7}{Adding game functionalities}{section.1}% 16
+\BOOKMARK [2][-]{subsection.1.8}{End of Game}{section.1}% 17
+\BOOKMARK [1][-]{section.2}{Functions}{}% 18
+\BOOKMARK [1][-]{section.3}{Objects}{}% 19
+\BOOKMARK [2][-]{subsection.3.1}{Create an Object}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.2}{Access an Object}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Parsing an object into a function}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.4}{Arrays of Objects}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.5}{Built-in Objects}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.6}{Math Object}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.7}{Math truncate}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.8}{Date Object}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.9}{toDateString\(\)}{section.3}% 28
+\BOOKMARK [1][-]{section.4}{Programming for web pages}{}% 29
+\BOOKMARK [2][-]{subsection.4.1}{DOM}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.2}{Programming the DOM}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.3}{Accessing DOM objects using an external file}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.4}{Handling Buttons}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.5}{Manipulating DOM object styles}{section.4}% 34

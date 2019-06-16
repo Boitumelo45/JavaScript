@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.31)  16 JUN 2019 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.31)  17 JUN 2019 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1487,7 +1487,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 47.
-<liveserver.png, id=128, 1242.6425pt x 86.3225pt>
+<liveserver.png, id=140, 1242.6425pt x 86.3225pt>
 File: liveserver.png Graphic file (type png)
  <use liveserver.png>
 Package pdftex.def Info: liveserver.png used on input line 93.
@@ -1499,7 +1499,7 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./liveserver.png>] <plunker.png, id=185, 1445.4pt x 903.375pt>
+ <./liveserver.png>] <plunker.png, id=197, 1445.4pt x 903.375pt>
 File: plunker.png Graphic file (type png)
  <use plunker.png>
 Package pdftex.def Info: plunker.png used on input line 104.
@@ -1509,7 +1509,7 @@ Overfull \hbox (14.85466pt too wide) in paragraph at lines 115--117
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<electron.png, id=188, 1445.4pt x 903.375pt>
+<electron.png, id=200, 1445.4pt x 903.375pt>
 File: electron.png Graphic file (type png)
  <use electron.png>
 Package pdftex.def Info: electron.png used on input line 125.
@@ -1519,7 +1519,7 @@ Overfull \hbox (14.85466pt too wide) in paragraph at lines 171--172
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<meteor.png, id=190, 1606.0pt x 880.28876pt>
+<meteor.png, id=202, 1606.0pt x 880.28876pt>
 File: meteor.png Graphic file (type png)
  <use meteor.png>
 Package pdftex.def Info: meteor.png used on input line 184.
@@ -1555,61 +1555,101 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4072) has occurred while \output is active []
 
  [8]
-LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input line 950.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Overfull \hbox (9.97072pt too wide) in paragraph at lines 995--996
+[][][][][][][][][][][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11] <imgs/dev1.PNG, id=1186, 1444.39626pt x 815.045pt>
+File: imgs/dev1.PNG Graphic file (type png)
+ <use imgs/dev1.PNG>
+Package pdftex.def Info: imgs/dev1.PNG used on input line 1215.
+(pdftex.def)             Requested size: 231.88997pt x 130.84514pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./imgs/dev1.PNG>]
+Overfull \hbox (15.63857pt too wide) in paragraph at lines 1310--1311
+[][][][][][][][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input line 1531.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 File: TS1XCharter-TLF.fd 2013/10/27 (autoinst) Font definitions for TS1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 950.
+(Font)              scaled to size 10.0pt on input line 1531.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `XCharter-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9] [10] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+ [14] [15] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-Overfull \hbox (22.88431pt too wide) in paragraph at lines 1196--1197
+Overfull \hbox (22.88431pt too wide) in paragraph at lines 1777--1778
 [][][][][][][]  
  []
 
-
-Overfull \hbox (3.98892pt too wide) in paragraph at lines 1223--1225
+[16]
+Overfull \hbox (3.98892pt too wide) in paragraph at lines 1804--1806
 [][][][][][][][][][][][][][][][][][][][][]  
  []
 
-[11]
+[17]
 
-LaTeX Warning: Empty bibliography on input line 1357.
+LaTeX Warning: Empty bibliography on input line 1938.
 
 
 AED: lastpage setting LastPage
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1361.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1361.
+[18
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1942.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1942.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1361.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1361.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1942.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1942.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9006501F3BECEF8CF26F03FB871CC629;2133.
+(rerunfilecheck)             Checksum: 0D93B2B4CC89EDDB442B81039032DA5A;2360.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22577 strings out of 492995
- 362074 string characters out of 6132704
+ 23195 strings out of 492995
+ 371967 string characters out of 6132704
  922579 words of memory out of 5000000
- 24645 multiletter control sequences out of 15000+600000
+ 24698 multiletter control sequences out of 15000+600000
  120607 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,77p,820b,2055s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_jfcsri.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (12 pages, 877666 bytes).
+Output written on main.pdf (18 pages, 1155244 bytes).
 PDF statistics:
- 1458 PDF objects out of 1728 (max. 8388607)
- 1416 compressed objects within 15 object streams
- 1041 named destinations out of 1200 (max. 500000)
- 36109 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2178 PDF objects out of 2487 (max. 8388607)
+ 2121 compressed objects within 22 object streams
+ 1603 named destinations out of 1728 (max. 500000)
+ 36138 words of extra memory for PDF output out of 42996 (max. 10000000)
 
