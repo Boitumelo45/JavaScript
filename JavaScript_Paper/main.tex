@@ -1181,11 +1181,179 @@ Document Object Model: Defines how the data of a web page is organized and manip
 	\item[Model]:  Data (stored in an object)
 \end{description}
 
+\subsection{Programming the DOM}
 
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
+\begin{lstlisting}[language=HTML]
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Listing1</title>
+	</head>
+			<body>
+			<p id="test">DOM</p>
 
+			<script>
+							let para = document.getElementById('test')
+							console.log(para);
+							para.innerText = "Document Object Model"
+			</script>
+			</body>
+ </html>
+\end{lstlisting}
+
+\subsection{Accessing DOM objects using an external file}
+
+\begin{description}
+	\item[HTML File] : listing2.html
+\end{description}
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+	<head>
+
+			<title>
+					Listing2
+		  </title>
+
+	</head>
+					<body>
+
+							<h1 id="h_1">Listing2</h1>
+
+							<script src="listing2.js"></script>
+
+					</body>
+</html>
+\end{lstlisting}
+
+\begin{description}
+	\item[JS File] : listing2.js
+\end{description}
+
+\begin{lstlisting}
+"use strict"
+//class
+function Simple(a,b){
+	this.a = a,
+	this.b = b
+}
+
+//method 1
+Simple.prototype.sum = function(){
+	return (this.a + this.b)
+}
+
+//instantiation
+var d = new Simple(12,2)
+console.log(d.sum())
+
+//manipulating the DOM
+var h = document.getElementById('h_1')
+h.innerText = "Version " + (d.sum()).toString()
+\end{lstlisting}
+
+\subsection{Handling Buttons}
+
+\begin{description}
+	\item[HTML file] : listing3.html
+\end{description}
+
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Listing2</title>
+	</head>
+	<body>
+		<h1 id="h_1">Handling Events</h1>
+		<p id="formula">Function used here</p>
+		<button type="button" name="ok-button" id="ok_button">OK</button>
+		<script src="listing3.js"></script>
+	</body>
+</html>
+\end{lstlisting}
+
+\begin{description}
+	\item[JS file] : listing3.js
+\end{description}
+
+\begin{lstlisting}
+"use strict"
+
+let ok_Button = document.getElementById('ok_button')
+
+function M(a,b){
+		this.a,
+		this.b
+}
+
+M.prototype.sum = function(){
+		//sum() method from class M(a,b)
+		return this.a + this.b
+}
+
+ok_Button.addEventListener('click', function(){
+		//code here...
+		let ff = new M(2,3)
+		var f = document.getElementById('formula')
+		f.innerText = ff.sum //get function
+})
+
+\end{lstlisting}
+
+\subsection{Manipulating DOM object styles}
+
+\begin{description}
+	\item[HTML file]: listing4.js
+\end{description}
+
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Listing2</title>
+	</head>
+	<body>
+		<h1 id="h_1">Handling Events</h1>
+		<p id="text">Manipulate this text</p>
+			<button type="button" name="ok-button" id="clear">
+					clear
+			</button>
+			<button type="button" name="revert-button" id="revert">
+				Revert
+			</button>
+		<script src="listing4.js"></script>
+	</body>
+</html>
+\end{lstlisting}
+
+\begin{description}
+	\item[JS file]: listing4.js
+\end{description}
+
+\begin{lstlisting}
+"use strict"
+
+var clear_button = document.getElementById('clear')
+var revert_button = document.getElementById('revert')
+var textToManipulate = document.getElementById("text")
+
+function clear(object){
+		object.style.display = 'none' //remove element
+}
+
+function revert(object){
+		object.style.display = 'block' //revert element
+}
+
+clear_button.addEventListener('click', function(){
+		clear(textToManipulate)
+})
+
+revert_button.addEventListener('click', function(){
+		revert(textToManipulate)
+})
+\end{lstlisting}
 \printbibliography[title={Bibliography}] % Print the bibliography, section title in curly brackets
 
 %----------------------------------------------------------------------------------------

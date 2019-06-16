@@ -25,3 +25,7 @@
 \BOOKMARK [2][-]{subsection.3.9}{toDateString\(\)}{section.3}% 25
 \BOOKMARK [1][-]{section.4}{Programming for web pages}{}% 26
 \BOOKMARK [2][-]{subsection.4.1}{DOM}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.2}{Programming the DOM}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.3}{Accessing DOM objects using an external file}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.4}{Handling Buttons}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.5}{Manipulating DOM object styles}{section.4}% 31

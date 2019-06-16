@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1560635088 "main.aux" "main.bbl" "main" 1560635335
+["bibtex main"] 1560679687 "main.aux" "main.bbl" "main" 1560679735
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1480098434 63002 075c3f13314e99e71e6ff0a472a98980 ""
   "example.bib" 1558278736 2571 468bb707c293fcdecb60455ea84cd4af ""
-  "main-blx.bib" 1560635333 306 9cf6d678208b4705ad2c8571a84a863a ""
-  "main.aux" 1560635334 6776 38c3508d3bccc9dc05aa0b40a9387952 ""
+  "main-blx.bib" 1560679734 306 9cf6d678208b4705ad2c8571a84a863a ""
+  "main.aux" 1560679735 7429 f7cd04bbdf17b3fc76a872e95cee4fc0 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1560635332 "main.tex" "main.pdf" "main" 1560635335
+  "main.blg"
+["pdflatex"] 1560679733 "main.tex" "main.pdf" "main" 1560679735
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/xcharter/xch_jfcsri.enc" 1483401670 3608 86511cfb5a68176bf374b11c1ac8e680 ""
@@ -179,18 +179,18 @@
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "electron.png" 1558278736 293419 b97b8e86e2f99d61d755cf01f58db3b4 ""
   "liveserver.png" 1558278736 180313 61d2f974ad1a611b6bb4fd4a893c1656 ""
-  "main.aux" 1560635334 6776 38c3508d3bccc9dc05aa0b40a9387952 ""
-  "main.bbl" 1560635088 498 15906ac6cc25b7b69ef6581fb3ff8a59 "bibtex main"
-  "main.out" 1560635335 1824 4f4fe32c425bf805e8165ed8c747bc99 ""
-  "main.run.xml" 1560635335 2559 400ffcb0d3113d57bfa7c25898771e3f ""
-  "main.tex" 1560635327 26554 85ee4de9c8fccaae784c80cbd566ddf0 ""
+  "main.aux" 1560679735 7429 f7cd04bbdf17b3fc76a872e95cee4fc0 ""
+  "main.bbl" 1560679687 498 15906ac6cc25b7b69ef6581fb3ff8a59 "bibtex main"
+  "main.out" 1560679735 2133 9006501f3becef8cf26f03fb871cc629 ""
+  "main.run.xml" 1560679735 2559 400ffcb0d3113d57bfa7c25898771e3f ""
+  "main.tex" 1560679728 29512 08a73a119dcf0419ab618a195de7b3b0 ""
   "meteor.png" 1558278736 169294 fb048d280e6cf74d617ed8aa285af00a ""
   "plunker.png" 1558278736 556398 ca572b98dd4bbb486a272f9ebddee377 ""
   "structure.tex" 1558278736 6914 e0aa0bacba200cdd0a7a68d444fbf63e ""
   (generated)
-  "main.log"
   "main.aux"
   "main.pdf"
+  "main.out"
+  "main.log"
   "main-blx.bib"
   "main.run.xml"
-  "main.out"

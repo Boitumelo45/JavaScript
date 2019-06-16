@@ -353,6 +353,10 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/xcharter/XCharter-Roman-tlf-ts1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/xcharter/XCharter-Roman-tlf-ts1.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/xcharter/XCharter-Roman-tlf-ts1--base.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
